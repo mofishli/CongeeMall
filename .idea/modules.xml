@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CongeeMall.iml" filepath="$PROJECT_DIR$/.idea/modules/CongeeMall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CongeeMall_main.iml" filepath="$PROJECT_DIR$/.idea/modules/CongeeMall_main.iml" group="CongeeMall" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CongeeMall_test.iml" filepath="$PROJECT_DIR$/.idea/modules/CongeeMall_test.iml" group="CongeeMall" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/congee-mall-common/congee-mall-common.iml" filepath="$PROJECT_DIR$/.idea/modules/congee-mall-common/congee-mall-common.iml" group="congee-mall-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/congee-mall-common/congee-mall-common_main.iml" filepath="$PROJECT_DIR$/.idea/modules/congee-mall-common/congee-mall-common_main.iml" group="congee-mall-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/congee-mall-common/congee-mall-common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/congee-mall-common/congee-mall-common_test.iml" group="congee-mall-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/congee-mall-dao/congee-mall-dao.iml" filepath="$PROJECT_DIR$/.idea/modules/congee-mall-dao/congee-mall-dao.iml" group="congee-mall-dao" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/congee-mall-dao/congee-mall-dao_main.iml" filepath="$PROJECT_DIR$/.idea/modules/congee-mall-dao/congee-mall-dao_main.iml" group="congee-mall-dao" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/congee-mall-dao/congee-mall-dao_test.iml" filepath="$PROJECT_DIR$/.idea/modules/congee-mall-dao/congee-mall-dao_test.iml" group="congee-mall-dao" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/congee-mall-service/congee-mall-service.iml" filepath="$PROJECT_DIR$/.idea/modules/congee-mall-service/congee-mall-service.iml" group="congee-mall-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/congee-mall-service/congee-mall-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/congee-mall-service/congee-mall-service_main.iml" group="congee-mall-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/congee-mall-service/congee-mall-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/congee-mall-service/congee-mall-service_test.iml" group="congee-mall-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/congee-mall-site/congee-mall-site.iml" filepath="$PROJECT_DIR$/.idea/modules/congee-mall-site/congee-mall-site.iml" group="congee-mall-site" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/congee-mall-site/congee-mall-site_main.iml" filepath="$PROJECT_DIR$/.idea/modules/congee-mall-site/congee-mall-site_main.iml" group="congee-mall-site" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/congee-mall-site/congee-mall-site_test.iml" filepath="$PROJECT_DIR$/.idea/modules/congee-mall-site/congee-mall-site_test.iml" group="congee-mall-site" />
+    </modules>
+  </component>
+</project>

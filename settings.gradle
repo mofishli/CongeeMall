@@ -1,0 +1,6 @@
+rootProject.name = 'CongeeMall'
+include 'congee-mall-common'
+include 'congee-mall-dao'
+include 'congee-mall-service'
+include 'congee-mall-site'
+

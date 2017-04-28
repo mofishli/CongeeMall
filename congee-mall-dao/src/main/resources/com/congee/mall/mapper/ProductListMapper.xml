@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.congee.mall.mapper.ProductListMapper">
+
+    <resultMap type="com.congee.mall.pojo.ProductList" id="ProductListMap">
+        <id property="name" column="name"/>
+        <result property="price" column="price"/>
+        <result property="pic" column="pic"/>
+        <result property="buynum" column="buynum"/>
+        <result property="freepost" column="freepost"/>
+    </resultMap>
+
+
+    <select id="selectById" parameterType="java.lang.Integer" resultType="com.congee.mall.pojo.ProductList"
+            resultMap="ProductListMap">
+        <![CDATA[
+
+            SELECT * from productlist ST
+                WHERE ST.id = #{id}
+
+        ]]>
+    </select>
+
+    <insert id="insertProduct" parameterType="com.congee.mall.pojo.ProductList">
+        insert into productlist (id, name, price,
+        pic, buynum, freepost)
+        values (#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR},
+        #{price,jdbcType=INTEGER}, #{pic,jdbcType=VARCHAR},
+        #{buynum,jdbcType=INTEGER},#{freepost,jdbcType=INTEGER})
+    </insert>
+
+    <update id="updateProduct" parameterType="com.congee.mall.pojo.ProductList">
+        update productlist
+      set
+            id = #{id,jdbcType=INTEGER}, name = #{name,jdbcType=VARCHAR},
+            price = #{price,jdbcType=INTEGER},
+            pic = #{pic,jdbcType=VARCHAR},
+            buynum = #{buynum,jdbcType=INTEGER},
+            freepost = #{freepost,jdbcType=INTEGER}
+
+        where id = #{id,jdbcType=INTEGER}
+    </update>
+
+
+    <delete id="deleteById">
+
+
+            DELETE FROM productlist
+                WHERE id =  #{id,jdbcType=INTEGER}
+
+
+    </delete>
+</mapper>

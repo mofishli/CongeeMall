@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="congee-mall-common_main" target="1.5" />
+      <module name="congee-mall-common_test" target="1.5" />
+      <module name="congee-mall-dao_main" target="1.5" />
+      <module name="congee-mall-dao_test" target="1.5" />
+      <module name="congee-mall-pojo_main" target="1.5" />
+      <module name="congee-mall-pojo_test" target="1.5" />
+      <module name="congee-mall-service_main" target="1.5" />
+      <module name="congee-mall-service_test" target="1.5" />
+      <module name="congee-mall-site_main" target="1.5" />
+      <module name="congee-mall-site_test" target="1.5" />
+      <module name="CongeeMall_main" target="1.5" />
+      <module name="CongeeMall_test" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
