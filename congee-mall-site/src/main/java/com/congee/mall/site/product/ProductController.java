@@ -3,6 +3,7 @@ package com.congee.mall.site.product;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.congee.mall.pojo.ProductList;
+import com.congee.mall.pojo.RequestResult;
 import com.congee.mall.service.product.ProductService;
 import com.congee.mall.site.constants.ProductUrl;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,15 +26,21 @@ public class ProductController {
     ProductService productService;
 
 
+
     @RequestMapping(value = ProductUrl.SELECT_PRODUCT_LIST,method = RequestMethod.GET)
-    public ProductList selectProductList(){
-        return productService.selectProductListId(1);
+    public RequestResult selectProductList(){
+
+        RequestResult result=new RequestResult();
+        result.setData(productService.selectProductListId(1));
+
+        return result;
     }
 
     @RequestMapping(value = ProductUrl.INSERT_PRODUCT_LIST)
     public int insertProductList(@RequestParam("data") String data){
 
        Map map=JSONObject.parseObject(data);
+
 
        return  productService.insertProductList(productService.creteProductList(map));
 

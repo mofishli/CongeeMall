@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.congee.mall.mapper.NavigatorMapper">
+
+    <resultMap type="com.congee.mall.pojo.NavigatorBean" id="BaseResultMap">
+        <id property="id" column="id"/>
+        <result property="name" column="name"/>
+        <result property="is_parent" column="is_parent"/>
+        <result property="parent_id" column="parent_id"/>
+        <result property="status" column="status"/>
+        <result property="create_time" column="create_time"/>
+        <result property="update_time" column="update_time"/>
+    </resultMap>
+
+
+    <select id="selectByParentId" parameterType="java.lang.Integer" resultMap="BaseResultMap"
+           >
+        <![CDATA[
+
+            SELECT * from product_category ST
+                WHERE ST.parent_id = #{parentId}
+
+        ]]>
+    </select>
+
+</mapper>
