@@ -8,5 +8,5 @@ import org.apache.ibatis.annotations.Mapper;
  */
 @Mapper
 public interface UserMapper {
-    UserBean login(int acct_id);
+    UserBean login(String acctId);
 }

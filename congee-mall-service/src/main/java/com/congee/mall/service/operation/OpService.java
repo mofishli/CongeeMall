@@ -1,9 +1,8 @@
 package com.congee.mall.service.operation;
 
-import com.alibaba.fastjson.JSONObject;
 import com.congee.mall.dao.NavigatorDao;
 import com.congee.mall.pojo.NavigatorBean;
-import com.congee.mall.pojo.RequestResult;
+import constants.RequestResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -23,7 +22,7 @@ public class OpService {
     NavigatorDao navigatorDao;
 
     public RequestResult getNavigator(){
-        RequestResult result=new RequestResult();
+        RequestResult result=RequestResult.SUCCESS_RESULT;
 
         List navigatorList=navigatorDao.selectByParentIdDao(0);
 

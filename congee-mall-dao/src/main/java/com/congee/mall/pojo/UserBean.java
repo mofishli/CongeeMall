@@ -4,7 +4,8 @@ package com.congee.mall.pojo;
  * Created by zhouli on 17/5/4.
  */
 public class UserBean {
-    private int acct_id;
+    private int user_id;
+    private String acct_id;
     private String acct_name;
     private String acct_password;
     private String acct_phone;
@@ -15,11 +16,19 @@ public class UserBean {
     private String create_time;
     private String instruction;
 
-    public int getAcct_id() {
+    public int getUser_id() {
+        return user_id;
+    }
+
+    public void setUser_id(int user_id) {
+        this.user_id = user_id;
+    }
+
+    public String getAcct_id() {
         return acct_id;
     }
 
-    public void setAcct_id(int acct_id) {
+    public void setAcct_id(String acct_id) {
         this.acct_id = acct_id;
     }
 
