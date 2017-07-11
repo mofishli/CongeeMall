@@ -1,7 +1,7 @@
 package com.congee.mall.site.product;
 
 import com.alibaba.fastjson.JSONObject;
-import constants.RequestResult;
+import com.congee.mall.constants.RequestResult;
 import com.congee.mall.service.product.ProductService;
 import com.congee.mall.site.constants.ProductUrl;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,7 +27,6 @@ public class ProductController {
 
         RequestResult result=RequestResult.SUCCESS_RESULT;
         result.setData(productService.selectProductListId(1));
-
         return result;
     }
 

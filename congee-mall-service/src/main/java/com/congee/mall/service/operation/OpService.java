@@ -2,7 +2,7 @@ package com.congee.mall.service.operation;
 
 import com.congee.mall.dao.NavigatorDao;
 import com.congee.mall.pojo.NavigatorBean;
-import constants.RequestResult;
+import com.congee.mall.constants.RequestResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

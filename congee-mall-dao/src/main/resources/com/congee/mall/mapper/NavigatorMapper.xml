@@ -15,12 +15,8 @@
 
     <select id="selectByParentId" parameterType="java.lang.Integer" resultMap="BaseResultMap"
            >
-        <![CDATA[
-
             SELECT * from product_category ST
                 WHERE ST.parent_id = #{parentId}
-
-        ]]>
     </select>
 
 </mapper>

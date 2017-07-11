@@ -1,19 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Gradle : CongeeMall : congee.war" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d01e4ba7-91d7-40d9-91ed-68e50a755d70" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/congee-mall-dao/build/classes/main/com/congee/mall/pojo/RequestResult.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/congee-mall-dao/src/main/java/com/congee/mall/pojo/RequestResult.java" afterPath="$PROJECT_DIR$/congee-mall-common/src/main/java/constants/RequestResult.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/congee-mall-common/build/classes/main/constants/BaseCode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/congee-mall-common/build/classes/main/constants/RequestResult.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/congee-mall-common/build/classes/main/constants/SystemCode.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/congee-mall-common/src/main/java/constants/BaseCode.java" afterPath="$PROJECT_DIR$/congee-mall-common/src/main/java/com/congee/mall/constants/BaseCode.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/congee-mall-common/src/main/java/constants/RequestResult.java" afterPath="$PROJECT_DIR$/congee-mall-common/src/main/java/com/congee/mall/constants/RequestResult.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/congee-mall-common/src/main/java/constants/SystemCode.java" afterPath="$PROJECT_DIR$/congee-mall-common/src/main/java/com/congee/mall/constants/SystemCode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/congee-mall-dao/build/classes/main/com/congee/mall/dao/UserDao.class" afterPath="$PROJECT_DIR$/congee-mall-dao/build/classes/main/com/congee/mall/dao/UserDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/congee-mall-dao/build/classes/main/com/congee/mall/impl/UserDaoImpl.class" afterPath="$PROJECT_DIR$/congee-mall-dao/build/classes/main/com/congee/mall/impl/UserDaoImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/congee-mall-dao/build/classes/main/com/congee/mall/mapper/UserMapper.class" afterPath="$PROJECT_DIR$/congee-mall-dao/build/classes/main/com/congee/mall/mapper/UserMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/congee-mall-dao/build/classes/main/com/congee/mall/pojo/UserBean.class" afterPath="$PROJECT_DIR$/congee-mall-dao/build/classes/main/com/congee/mall/pojo/UserBean.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/congee-mall-service/build/classes/main/com/congee/mall/service/operation/OpService.class" afterPath="$PROJECT_DIR$/congee-mall-service/build/classes/main/com/congee/mall/service/operation/OpService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/congee-mall-service/build/classes/main/com/congee/mall/service/user/UserService.class" afterPath="$PROJECT_DIR$/congee-mall-service/build/classes/main/com/congee/mall/service/user/UserService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/congee-mall-site/build/classes/main/com/congee/mall/AppConfig.class" afterPath="$PROJECT_DIR$/congee-mall-site/build/classes/main/com/congee/mall/AppConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/congee-mall-site/build/classes/main/com/congee/mall/Application.class" afterPath="$PROJECT_DIR$/congee-mall-site/build/classes/main/com/congee/mall/Application.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/congee-mall-site/build/classes/main/com/congee/mall/site/constants/OpUrl.class" afterPath="$PROJECT_DIR$/congee-mall-site/build/classes/main/com/congee/mall/site/constants/OpUrl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/congee-mall-site/build/classes/main/com/congee/mall/site/constants/ProductUrl.class" afterPath="$PROJECT_DIR$/congee-mall-site/build/classes/main/com/congee/mall/site/constants/ProductUrl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/congee-mall-site/build/classes/main/com/congee/mall/site/constants/UserUrl.class" afterPath="$PROJECT_DIR$/congee-mall-site/build/classes/main/com/congee/mall/site/constants/UserUrl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/congee-mall-site/build/classes/main/com/congee/mall/site/operation/OperationController.class" afterPath="$PROJECT_DIR$/congee-mall-site/build/classes/main/com/congee/mall/site/operation/OperationController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/congee-mall-site/build/classes/main/com/congee/mall/site/product/ProductController.class" afterPath="$PROJECT_DIR$/congee-mall-site/build/classes/main/com/congee/mall/site/product/ProductController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/congee-mall-site/build/classes/main/com/congee/mall/site/user/UserController.class" afterPath="$PROJECT_DIR$/congee-mall-site/build/classes/main/com/congee/mall/site/user/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/congee-mall-common/congee-mall-common_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/congee-mall-common/congee-mall-common_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/congee-mall-common/congee-mall-common_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/congee-mall-common/congee-mall-common_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/congee-mall-dao/congee-mall-dao_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/congee-mall-dao/congee-mall-dao_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/congee-mall-dao/congee-mall-dao_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/congee-mall-dao/congee-mall-dao_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/congee-mall-service/congee-mall-service_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/congee-mall-service/congee-mall-service_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/congee-mall-service/congee-mall-service_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/congee-mall-service/congee-mall-service_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/congee-mall-site/congee-mall-site.iml" afterPath="$PROJECT_DIR$/.idea/modules/congee-mall-site/congee-mall-site.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/congee-mall-site/congee-mall-site_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/congee-mall-site/congee-mall-site_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/congee-mall-site/congee-mall-site_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/congee-mall-site/congee-mall-site_test.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/congee-mall-common/build.gradle" afterPath="$PROJECT_DIR$/congee-mall-common/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/congee-mall-dao/build/resources/main/com/congee/mall/mapper/NavigatorMapper.xml" afterPath="$PROJECT_DIR$/congee-mall-dao/build/resources/main/com/congee/mall/mapper/NavigatorMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/congee-mall-dao/build/resources/main/com/congee/mall/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/congee-mall-dao/build/resources/main/com/congee/mall/mapper/UserMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/congee-mall-dao/src/main/java/com/congee/mall/dao/UserDao.java" afterPath="$PROJECT_DIR$/congee-mall-dao/src/main/java/com/congee/mall/dao/UserDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/congee-mall-dao/src/main/java/com/congee/mall/impl/UserDaoImpl.java" afterPath="$PROJECT_DIR$/congee-mall-dao/src/main/java/com/congee/mall/impl/UserDaoImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/congee-mall-dao/src/main/java/com/congee/mall/mapper/UserMapper.java" afterPath="$PROJECT_DIR$/congee-mall-dao/src/main/java/com/congee/mall/mapper/UserMapper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/congee-mall-dao/src/main/java/com/congee/mall/pojo/UserBean.java" afterPath="$PROJECT_DIR$/congee-mall-dao/src/main/java/com/congee/mall/pojo/UserBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/congee-mall-dao/src/main/resources/com/congee/mall/mapper/NavigatorMapper.xml" afterPath="$PROJECT_DIR$/congee-mall-dao/src/main/resources/com/congee/mall/mapper/NavigatorMapper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/congee-mall-dao/src/main/resources/com/congee/mall/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/congee-mall-dao/src/main/resources/com/congee/mall/mapper/UserMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/congee-mall-service/build.gradle" afterPath="$PROJECT_DIR$/congee-mall-service/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/congee-mall-service/src/main/java/com/congee/mall/service/operation/OpService.java" afterPath="$PROJECT_DIR$/congee-mall-service/src/main/java/com/congee/mall/service/operation/OpService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/congee-mall-service/src/main/java/com/congee/mall/service/user/UserService.java" afterPath="$PROJECT_DIR$/congee-mall-service/src/main/java/com/congee/mall/service/user/UserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/congee-mall-site/build.gradle" afterPath="$PROJECT_DIR$/congee-mall-site/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/congee-mall-site/build/resources/main/application.yml" afterPath="$PROJECT_DIR$/congee-mall-site/build/resources/main/application.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/congee-mall-site/build/resources/main/mybatis-config.xml" afterPath="$PROJECT_DIR$/congee-mall-site/build/resources/main/mybatis-config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/congee-mall-site/src/main/java/com/congee/mall/AppConfig.java" afterPath="$PROJECT_DIR$/congee-mall-site/src/main/java/com/congee/mall/AppConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/congee-mall-site/src/main/java/com/congee/mall/Application.java" afterPath="$PROJECT_DIR$/congee-mall-site/src/main/java/com/congee/mall/Application.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/congee-mall-site/src/main/java/com/congee/mall/site/constants/UserUrl.java" afterPath="$PROJECT_DIR$/congee-mall-site/src/main/java/com/congee/mall/site/constants/UserUrl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/congee-mall-site/src/main/java/com/congee/mall/site/operation/OperationController.java" afterPath="$PROJECT_DIR$/congee-mall-site/src/main/java/com/congee/mall/site/operation/OperationController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/congee-mall-site/src/main/java/com/congee/mall/site/product/ProductController.java" afterPath="$PROJECT_DIR$/congee-mall-site/src/main/java/com/congee/mall/site/product/ProductController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/congee-mall-site/src/main/java/com/congee/mall/site/user/UserController.java" afterPath="$PROJECT_DIR$/congee-mall-site/src/main/java/com/congee/mall/site/user/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/congee-mall-site/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/congee-mall-site/src/main/resources/application.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/congee-mall-site/src/main/resources/mybatis-config.xml" afterPath="$PROJECT_DIR$/congee-mall-site/src/main/resources/mybatis-config.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -42,6 +89,14 @@
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="ExternalProjectsData">
@@ -74,11 +129,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/congee-mall-service/src/main/java/com/congee/mall/service/user/UserService.java">
+      <file leaf-file-name="AppConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/congee-mall-site/src/main/java/com/congee/mall/AppConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-128">
-              <caret line="24" column="25" lean-forward="false" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+            <state relative-caret-position="165">
+              <caret line="20" column="11" lean-forward="false" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyAop.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/congee-mall-common/src/main/java/com/congee/mall/aop/MyAop.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="58" column="31" lean-forward="false" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,11 +153,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/congee-mall-dao/src/main/java/com/congee/mall/mapper/UserMapper.java">
+      <file leaf-file-name="BaseCode.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/congee-mall-common/src/main/java/com/congee/mall/constants/BaseCode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            <state relative-caret-position="120">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,43 +165,80 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/congee-mall-dao/src/main/resources/com/congee/mall/mapper/UserMapper.xml">
+      <file leaf-file-name="CacheHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/congee-mall-common/src/main/java/com/congee/mall/cache/CacheHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="150">
+              <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
               <folding>
-                <marker date="1493892007000" expanded="true" signature="860:931" ph="SELECT * fro... user_info" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#330#331#0" expanded="false" />
+                <element signature="e#376#377#0" expanded="false" />
+                <element signature="e#418#419#0" expanded="false" />
+                <element signature="e#467#468#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/congee-mall-site/src/main/java/com/congee/mall/site/user/UserController.java">
+      <file leaf-file-name="Sender.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/congee-mall-common/src/main/java/com/congee/mall/mq/Sender.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="28" column="75" lean-forward="false" selection-start-line="28" selection-start-column="75" selection-end-line="28" selection-end-column="75" />
+            <state relative-caret-position="300">
+              <caret line="25" column="35" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RequestResult.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/congee-mall-common/src/main/java/constants/RequestResult.java">
+      <file leaf-file-name="Receiver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/congee-mall-common/src/main/java/com/congee/mall/mq/Receiver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="10" column="50" lean-forward="false" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="50" />
+            <state relative-caret-position="195">
+              <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="19" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HttpServletRequest.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/8.5.11/83cbe61a663259e7ef33943810ac328cfacfc67b/tomcat-embed-core-8.5.11-sources.jar!/javax/servlet/http/HttpServletRequest.java">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/congee-mall-site/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="462" column="62" lean-forward="false" selection-start-line="462" selection-start-column="58" selection-end-line="462" selection-end-column="62" />
+            <state relative-caret-position="255">
+              <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/congee-mall-site/src/main/java/com/congee/mall/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyThread.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/congee-mall-site/src/main/java/com/congee/mall/MyThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+              <folding>
+                <element signature="e#258#259#0" expanded="true" />
+                <element signature="e#290#291#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/congee-mall-site/src/main/java/com/congee/mall/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -153,26 +257,40 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>hibernate</find>
-      <find>spring-boot-starter-data-jpa</find>
-      <find>ProductController</find>
-      <find>selectProductById</find>
-      <find>pageHelper</find>
-      <find>delete</find>
-      <find>congee</find>
-      <find>RequestBody</find>
-      <find>selectById</find>
-      <find>ProductList</find>
-      <find>R</find>
-      <find>ProductListMap</find>
-      <find>getResultList</find>
       <find>update_time</find>
       <find>输出navigatorList</find>
       <find>instruction</find>
       <find>intValue</find>
       <find>userBean........</find>
       <find>geta</find>
+      <find>UserDaoImpl</find>
+      <find>register</find>
+      <find>jsonObject</find>
+      <find>MyBatisConfiguration</find>
+      <find>pageSize</find>
+      <find>startPage</find>
+      <find>acctName</find>
+      <find>OperationController</find>
+      <find>jdbc</find>
+      <find>jpa</find>
+      <find>ssss</find>
+      <find>PageHelper</find>
+      <find>JSONObject</find>
+      <find>BoundValueOperations</find>
+      <find>StringRedisTemplate</find>
+      <find>shabi</find>
+      <find>RequestResult</find>
+      <find>SELECT * from wallpaper                 WHERE 1=1</find>
+      <find>getFormatDate</find>
+      <find>newFileNameBase64</find>
+      <find>date</find>
+      <find>hello world!!!!!</find>
+      <find>MultipartFile</find>
+      <find>receiveMsg</find>
     </findStrings>
+    <dirStrings>
+      <dir>$USER_HOME$/.gradle/caches/modules-2/files-2.1/mysql/mysql-connector-java/5.1.35/b6ac941b7288376a7e8bc6490264bbd4427fb94e/mysql-connector-java-5.1.35.jar!/com/mysql/jdbc</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -303,6 +421,11 @@
                 <option name="description" value="Compiles main Java source." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates a war archive with all the compiled classes, the web-app content and the libraries." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="war" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the insight into a specific dependency in root project 'CongeeMall'." />
@@ -809,6 +932,11 @@
                 <option name="name" value="compileJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Generates a war archive with all the compiled classes, the web-app content and the libraries." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/congee-mall-site" />
+                <option name="name" value="war" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays the insight into a specific dependency in project ':congee-mall-site'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/congee-mall-site" />
                 <option name="name" value="dependencyInsight" />
@@ -870,7 +998,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="8958188578000" />
+        <entry key="$PROJECT_DIR$" value="8969044859000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1010,57 +1138,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/congee-mall-site/src/main/java/com/cogee/mall/site/product/ProductController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Application.java" />
-        <option value="$PROJECT_DIR$/congee-mall-site/src/main/java/Application.java" />
-        <option value="$PROJECT_DIR$/congee-mall-site/src/main/java/com/cogee/mall/site/Application.java" />
-        <option value="$PROJECT_DIR$/congee-mall-service/src/main/java/com/congee/mall/service/testAuto.java" />
-        <option value="$PROJECT_DIR$/congee-mall-site/src/main/java/com/cogee/mall/testAuto.java" />
-        <option value="$PROJECT_DIR$/congee-mall-site/src/main/java/com/cogee/mall/product/ProductController.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/congee-mall-site/src/main/java/com/cogee/mall/Application.java" />
-        <option value="$PROJECT_DIR$/congee-mall-site/src/main/java/com/congee/mall/product/ProductController.java" />
-        <option value="$PROJECT_DIR$/congee-mall-service/src/main/java/com/congee/mall/service/order/OrderSerice.java" />
-        <option value="$PROJECT_DIR$/congee-mall-dao/src/main/resources/com.congee.mall.mapper/ProductListMapper" />
-        <option value="$PROJECT_DIR$/congee-mall-site/build.gradle" />
-        <option value="$PROJECT_DIR$/congee-mall-site/src/main/java/com/congee/mall/Application.java" />
-        <option value="$PROJECT_DIR$/congee-mall-dao/src/main/resources/com.congee.mall.mapper/ProductListMapper.xml" />
-        <option value="$PROJECT_DIR$/congee-mall-site/src/main/resources/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/congee-mall-dao/src/main/resources/com.congee.mall.mapper/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/congee-mall-dao/src/main/java/com/congee/mall/mappera/ProductListMapper.java" />
-        <option value="$PROJECT_DIR$/congee-mall-dao/src/main/resources/com/congee/mall/mappera/ProductListMapper.xml" />
-        <option value="$PROJECT_DIR$/congee-mall-dao/src/main/resources/com/congee/mall/mappera/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/congee-mall-dao/src/main/resources/com/congee/mall/mapper/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/congee-mall-site/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/congee-mall-dao/src/main/java/com/congee/mall/mapper/ProductListMapper.java" />
-        <option value="$PROJECT_DIR$/congee-mall-dao/src/main/java/com/congee/mall/dao/ProductListDao.java" />
-        <option value="$PROJECT_DIR$/congee-mall-dao/src/main/java/com/congee/mall/impl/ProductListDaoImpl.java" />
-        <option value="$PROJECT_DIR$/congee-mall-site/src/main/java/com/congee/mall/site/constants/ProductUrl.java" />
-        <option value="$PROJECT_DIR$/congee-mall-common/build.gradle" />
-        <option value="$PROJECT_DIR$/congee-mall-dao/src/main/resources/com/congee/mall/mapper/ProductListMapper.xml" />
-        <option value="$PROJECT_DIR$/congee-mall-site/src/main/java/com/congee/mall/site/constants/OpUrl.java" />
-        <option value="$PROJECT_DIR$/congee-mall-service/src/main/java/com/congee/mall/service/product/ProductService.java" />
-        <option value="$PROJECT_DIR$/congee-mall-dao/src/main/java/com/congee/mall/mapper/NavigatorMapper.java" />
-        <option value="$PROJECT_DIR$/congee-mall-dao/src/main/java/com/congee/mall/dao/NavigatorDao.java" />
-        <option value="$PROJECT_DIR$/congee-mall-dao/src/main/java/com/congee/mall/impl/NavigatorDaoImpl.java" />
-        <option value="$PROJECT_DIR$/congee-mall-dao/src/main/java/com/congee/mall/pojo/NavigatorBean.java" />
-        <option value="$PROJECT_DIR$/congee-mall-dao/src/main/resources/com/congee/mall/mapper/NavigatorMapper.xml" />
-        <option value="$PROJECT_DIR$/congee-mall-site/src/main/java/com/congee/mall/site/operation/OperationController.java" />
-        <option value="$PROJECT_DIR$/congee-mall-site/src/main/java/com/congee/mall/AppConfig.java" />
-        <option value="$PROJECT_DIR$/congee-mall-site/src/main/java/com/congee/mall/site/constants/UserUrl.java" />
+        <option value="$PROJECT_DIR$/congee-mall-service/src/main/java/com/congee/mall/service/operation/OpService.java" />
+        <option value="$PROJECT_DIR$/congee-mall-common/src/main/java/constants/RequestResult.java" />
+        <option value="$PROJECT_DIR$/congee-mall-common/src/main/java/constants/ApiException.java" />
+        <option value="$PROJECT_DIR$/congee-mall-common/src/main/java/constants/BaseController.java" />
         <option value="$PROJECT_DIR$/congee-mall-dao/src/main/java/com/congee/mall/pojo/UserBean.java" />
+        <option value="$PROJECT_DIR$/congee-mall-site/src/main/java/com/congee/mall/site/constants/UserUrl.java" />
+        <option value="$PROJECT_DIR$/congee-mall-dao/src/main/java/com/congee/mall/dto/UserInfo.java" />
+        <option value="$PROJECT_DIR$/congee-mall-common/src/main/java/constants/DateUtil.java" />
         <option value="$PROJECT_DIR$/congee-mall-dao/src/main/java/com/congee/mall/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/congee-mall-dao/src/main/java/com/congee/mall/impl/UserDaoImpl.java" />
         <option value="$PROJECT_DIR$/congee-mall-dao/src/main/java/com/congee/mall/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/congee-mall-dao/src/main/resources/com/congee/mall/mapper/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/congee-mall-dao/src/main/java/com/congee/mall/pojo/RequestResult.java" />
-        <option value="$PROJECT_DIR$/congee-mall-common/src/main/java/constants/BaseCode.java" />
-        <option value="$PROJECT_DIR$/congee-mall-service/src/main/java/com/congee/mall/service/operation/OpService.java" />
-        <option value="$PROJECT_DIR$/congee-mall-site/src/main/java/com/congee/mall/site/product/ProductController.java" />
+        <option value="$PROJECT_DIR$/congee-mall-dao/src/main/java/com/congee/mall/dto/UserInfoRequest.java" />
         <option value="$PROJECT_DIR$/congee-mall-common/src/main/java/constants/SystemCode.java" />
+        <option value="$PROJECT_DIR$/congee-mall-common/src/main/java/constants/CheckUtil.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/congee-mall-service/build.gradle" />
+        <option value="$PROJECT_DIR$/congee-mall-site/build.gradle" />
+        <option value="$PROJECT_DIR$/congee-mall-dao/src/main/java/com/congee/mall/pojo/ProductList.java" />
         <option value="$PROJECT_DIR$/congee-mall-service/src/main/java/com/congee/mall/service/user/UserService.java" />
-        <option value="$PROJECT_DIR$/congee-mall-common/src/main/java/constants/RequestResult.java" />
+        <option value="$PROJECT_DIR$/congee-mall-dao/src/main/resources/com/congee/mall/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/congee-mall-common/src/main/java/cache/RedisService.java" />
+        <option value="$PROJECT_DIR$/congee-mall-common/src/main/java/cache/CacheHelper.java" />
+        <option value="$PROJECT_DIR$/congee-mall-common/src/main/java/com/congee/mal/CacheHelper.java" />
+        <option value="$PROJECT_DIR$/congee-mall-common/src/main/java/com/congee/mall/CacheHelper.java" />
+        <option value="$PROJECT_DIR$/congee-mall-common/src/main/java/com/congee/mall/cache/RedisService.java" />
         <option value="$PROJECT_DIR$/congee-mall-site/src/main/java/com/congee/mall/site/user/UserController.java" />
+        <option value="$PROJECT_DIR$/congee-mall-site/src/main/java/com/congee/mall/site/product/ProductController.java" />
+        <option value="$PROJECT_DIR$/congee-mall-dao/src/main/java/com/congee/mall/pojo/PaperBean.java" />
+        <option value="$PROJECT_DIR$/congee-mall-site/src/main/java/com/congee/mall/site/wallpaper/WallPaper.java" />
+        <option value="$PROJECT_DIR$/congee-mall-dao/src/main/java/com/congee/mall/mapper/WallPaperMapper.java" />
+        <option value="$PROJECT_DIR$/congee-mall-dao/src/main/java/com/congee/mall/dao/WallPaperDao.java" />
+        <option value="$PROJECT_DIR$/congee-mall-dao/src/main/java/com/congee/mall/impl/WallPaperImpl.java" />
+        <option value="$PROJECT_DIR$/congee-mall-site/src/main/java/com/congee/mall/site/constants/WallPaperUrl.java" />
+        <option value="$PROJECT_DIR$/congee-mall-dao/src/main/java/com/congee/mall/pojo/WallPaperBean.java" />
+        <option value="$PROJECT_DIR$/congee-mall-dao/src/main/resources/com/congee/mall/mapper/WallPaperMapper.xml" />
+        <option value="$PROJECT_DIR$/congee-mall-common/src/main/java/com/congee/mall/constants/DateUtil.java" />
+        <option value="$PROJECT_DIR$/congee-mall-site/src/main/java/com/congee/mall/site/wallpaper/WallPaperController.java" />
+        <option value="$PROJECT_DIR$/congee-mall-common/src/main/java/com/congee/mall/constants/CommonUtil.java" />
+        <option value="$PROJECT_DIR$/congee-mall-site/src/main/resources/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/congee-mall-dao/src/main/resources/com/congee/mall/mapper/NavigatorMapper.xml" />
+        <option value="$PROJECT_DIR$/congee-mall-service/src/main/java/com/congee/mall/service/wallpaper/WallPaperService.java" />
+        <option value="$PROJECT_DIR$/congee-mall-common/build.gradle" />
+        <option value="$PROJECT_DIR$/congee-mall-site/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/congee-mall-site/src/main/java/com/congee/mall/MyThread.java" />
+        <option value="$PROJECT_DIR$/congee-mall-site/src/main/java/com/congee/mall/Test.java" />
+        <option value="$PROJECT_DIR$/congee-mall-site/src/main/java/com/congee/mall/AppConfig.java" />
+        <option value="$PROJECT_DIR$/congee-mall-site/src/main/java/com/congee/mall/Application.java" />
+        <option value="$PROJECT_DIR$/congee-mall-common/src/main/java/com/congee/mall/mq/Receiver.java" />
+        <option value="$PROJECT_DIR$/congee-mall-common/src/main/java/com/congee/mall/mq/Sender.java" />
+        <option value="$PROJECT_DIR$/congee-mall-common/src/main/java/com/congee/mall/aop/MyAop.java" />
+        <option value="$PROJECT_DIR$/congee-mall-common/src/main/java/com/congee/mall/constants/BaseCode.java" />
       </list>
     </option>
   </component>
@@ -1071,9 +1199,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="82" />
+    <option name="x" value="67" />
     <option name="y" value="23" />
-    <option name="width" value="1232" />
+    <option name="width" value="1198" />
     <option name="height" value="726" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -1082,7 +1210,7 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
-      <showMembers />
+      <showMembers ProjectPane="true" />
       <showModules />
       <showLibraryContents />
       <hideEmptyPackages />
@@ -1094,8 +1222,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1139,180 +1268,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CongeeMall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CongeeMall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="congee-mall-site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CongeeMall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CongeeMall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="congee-mall-site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CongeeMall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CongeeMall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="congee-mall-site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CongeeMall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CongeeMall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="congee-mall-service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CongeeMall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CongeeMall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="congee-mall-service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CongeeMall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CongeeMall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="congee-mall-dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CongeeMall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CongeeMall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="congee-mall-dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1344,11 +1299,128 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mall" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CongeeMall" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CongeeMall" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="congee-mall-common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mall" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="constants" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CongeeMall" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CongeeMall" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="congee-mall-common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mall" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cache" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CongeeMall" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CongeeMall" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="congee-mall-common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mall" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyAop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ClassTreeNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1359,11 +1431,28 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.61609197" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="congeemall" />
+    <property name="SearchEverywhereHistoryKey" value="Redis&#9;PSI&#9;JAVA://com.congee.mall.site.user.UserController#redisTemplate&#10;Red&#9;FILE&#9;file:///Users/zhouli/Desktop/粥粥商城/服务端/CongeeMall/congee-mall-common/src/main/java/cache/RedisService.java" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/congee-mall-dao/src/main/resources/com/congee/mall/mapper" />
+      <recent name="$PROJECT_DIR$/congee-mall-site/src/main/java/com/cogee/mall/site/product" />
+      <recent name="$PROJECT_DIR$/congee-mall-common" />
+      <recent name="$PROJECT_DIR$/congee-mall-dao" />
+      <recent name="$PROJECT_DIR$/congee-mall-pojo" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.congee.mall.site.constants" />
+      <recent name="com.congee.mall.site.user" />
+      <recent name="com.cogee.mall.site.product" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/congee-mall-site/src/main/resources" />
       <recent name="$PROJECT_DIR$/congee-mall-dao/src/main/resources/com/congee/mall/mapper" />
@@ -1371,24 +1460,12 @@
       <recent name="$PROJECT_DIR$/congee-mall-dao/src/main/resources/com.congee.mall.mapper" />
       <recent name="$PROJECT_DIR$/congee-mall-site/src/main/java" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.congee.mall.site.constants" />
-      <recent name="com.congee.mall.site.user" />
-      <recent name="com.cogee.mall.site.product" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/congee-mall-site/src/main/java/com/cogee/mall/site/product" />
-      <recent name="$PROJECT_DIR$/congee-mall-common" />
-      <recent name="$PROJECT_DIR$/congee-mall-dao" />
-      <recent name="$PROJECT_DIR$/congee-mall-pojo" />
-      <recent name="$PROJECT_DIR$/congee-mall-service" />
-    </key>
   </component>
   <component name="RunManager" selected="Spring Boot.Boot">
     <configuration default="false" name="Boot" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.congee.mall.*" />
+          <option name="PATTERN" value="com.congee.mall.cache.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1816,6 +1893,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="d01e4ba7-91d7-40d9-91ed-68e50a755d70" name="Default" comment="" />
@@ -1830,12 +1910,25 @@
       <workItem from="1493185328844" duration="39632000" />
       <workItem from="1493554099338" duration="18457000" />
       <workItem from="1493688653922" duration="26028000" />
-      <workItem from="1493964247889" duration="6662000" />
+      <workItem from="1493964247889" duration="21417000" />
+      <workItem from="1494232298677" duration="27819000" />
+      <workItem from="1494322948320" duration="2281000" />
+      <workItem from="1494420805537" duration="2003000" />
+      <workItem from="1494837659409" duration="18812000" />
+      <workItem from="1495242276773" duration="5394000" />
+      <workItem from="1495766385424" duration="2659000" />
+      <workItem from="1496199448768" duration="16963000" />
+      <workItem from="1496282276398" duration="598000" />
+      <workItem from="1496719621205" duration="29862000" />
+      <workItem from="1498441212263" duration="12320000" />
+      <workItem from="1498702756626" duration="12265000" />
+      <workItem from="1499334632671" duration="13778000" />
+      <workItem from="1499764266727" duration="222000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125920000" />
+    <option name="totallyTimeSpent" value="285651000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1847,7 +1940,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="82" y="23" width="1232" height="726" extended-state="0" />
+    <frame x="67" y="23" width="1198" height="726" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1857,33 +1950,72 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39905363" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.48707592" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38485804" sideWeight="0.48707592" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46214512" sideWeight="0.48707592" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28907564" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43815514" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26211074" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23990306" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24567474" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3422713" sideWeight="0.48707592" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2949527" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47791797" sideWeight="0.5129241" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39905363" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31230283" sideWeight="0.48707592" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3438486" sideWeight="0.48707592" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43815514" sideWeight="0.49676898" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3206785" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5899054" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22940226" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -1900,421 +2032,384 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/congee-mall-service/src/main/java/com/congee/mall/service/BaseService.java" />
-    <entry file="file://$PROJECT_DIR$/congee-mall-site/src/main/java/com/cogee/mall/site/product/ProductListDaoImpl.java" />
-    <entry file="file://$PROJECT_DIR$/congee-mall-site/src/main/java/com/cogee/mall/site/product/ProductListDao.java" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.3.6.RELEASE/9a93dd1daa209146297f0d0a1ba900be43cbee50/spring-beans-4.3.6.RELEASE-sources.jar!/org/springframework/beans/factory/annotation/Autowired.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
+        <state relative-caret-position="238">
           <caret line="69" column="18" lean-forward="false" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/congee-mall-site/src/main/java/com/cogee/mall/testAuto.java" />
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/congee-mall-dao/src/main/java/com/congee/mall/dao/NavigatorDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/congee-mall-site/src/main/java/com/congee/mall/site/product/ProductController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding />
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/congee-mall-service/src/main/java/com/congee/mall/service/order/OrderSerice.java">
+    <entry file="file://$PROJECT_DIR$/congee-mall-site/src/main/java/com/congee/mall/site/operation/OperationController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="165">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/congee-mall-dao/src/main/resources/com.congee.mall.mapper/ProductList.tld" />
-    <entry file="file://$PROJECT_DIR$/congee-mall-service/build.gradle">
+    <entry file="file://$PROJECT_DIR$/congee-mall-dao/src/main/java/com/congee/mall/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="180">
+          <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mybatis/mybatis/3.2.8/287bc9f8485a85211d7a900fe43c74264ee0561b/mybatis-3.2.8-sources.jar!/org/apache/ibatis/builder/xml/mybatis-3-mapper.dtd">
+    <entry file="file://$PROJECT_DIR$/congee-mall-dao/src/main/java/com/congee/mall/dto/UserInfoResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+        <state relative-caret-position="45">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/congee-mall-dao/build.gradle">
+    <entry file="file://$PROJECT_DIR$/congee-mall-dao/src/main/java/com/congee/mall/impl/UserDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/congee-mall-site/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/congee-mall-site/src/main/java/com/congee/mall/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/congee-mall-site/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="16" column="3" lean-forward="false" selection-start-line="16" selection-start-column="3" selection-end-line="18" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/8.5.11/83cbe61a663259e7ef33943810ac328cfacfc67b/tomcat-embed-core-8.5.11-sources.jar!/org/apache/coyote/AbstractProcessorLight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/congee-mall-common/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10305">
-          <caret line="744" column="0" lean-forward="false" selection-start-line="744" selection-start-column="0" selection-end-line="744" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/congee-mall-site/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="33" lean-forward="false" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+        <state relative-caret-position="90">
+          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/congee-mall-dao/src/main/java/com/congee/mall/pojo/ProductList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/8.5.11/83cbe61a663259e7ef33943810ac328cfacfc67b/tomcat-embed-core-8.5.11-sources.jar!/org/apache/coyote/http11/Http11InputBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="470" column="0" lean-forward="false" selection-start-line="470" selection-start-column="0" selection-end-line="470" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/congee-mall-dao/src/main/java/com/congee/mall/dao/ProductListDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/congee-mall-dao/src/main/java/com/congee/mall/dao/NavigatorDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/congee-mall-dao/src/main/java/com/congee/mall/mapper/ProductListMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/congee-mall-dao/src/main/java/com/congee/mall/pojo/NavigatorBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/congee-mall-dao/src/main/java/com/congee/mall/mapper/NavigatorMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/congee-mall-dao/src/main/resources/com/congee/mall/mapper/NavigatorMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="51" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/congee-mall-dao/src/main/resources/com/congee/mall/mapper/ProductListMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="37" column="23" lean-forward="false" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
-          <folding>
-            <marker date="1493291395000" expanded="true" signature="733:797" ph="SELECT * fro... productlist" />
-            <marker date="1493291395000" expanded="true" signature="915:1178" ph="insert into productlist... " />
-            <marker date="1493291395000" expanded="true" signature="1283:1619" ph="update produ... " />
-            <marker date="1493291395000" expanded="true" signature="1679:1753" ph="DELETE FROM " />
-            <marker date="1493291395000" expanded="true" signature="1685:1753" ph="SELECT * fro... productlist" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/congee-mall-site/src/main/java/com/congee/mall/site/constants/OpUrl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="51" lean-forward="false" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/congee-mall-site/src/main/java/com/congee/mall/site/constants/ProductUrl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/congee-mall-dao/src/main/java/com/congee/mall/impl/ProductListDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/congee-mall-dao/src/main/java/com/congee/mall/impl/NavigatorDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/congee-mall-service/src/main/java/com/congee/mall/service/product/ProductService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="41" column="23" lean-forward="false" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/congee-mall-site/src/main/java/com/congee/mall/site/constants/UserUrl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/congee-mall-site/src/main/java/com/congee/mall/AppConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/congee-mall-site/src/main/java/com/congee/mall/site/operation/OperationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/congee-mall-dao/src/main/java/com/congee/mall/pojo/UserBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
-          <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        <state relative-caret-position="-345">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/Map.java">
+    <entry file="file://$PROJECT_DIR$/congee-mall-site/src/main/java/com/congee/mall/site/user/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="128" column="17" lean-forward="false" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
+        <state relative-caret-position="146">
+          <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/congee-mall-dao/src/main/java/com/congee/mall/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/congee-mall-dao/src/main/java/com/congee/mall/dao/WallPaperDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/congee-mall-dao/src/main/java/com/congee/mall/impl/WallPaperImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="24" column="33" lean-forward="false" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/congee-mall-common/src/main/java/com/congee/mall/constants/SystemCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/congee-mall-common/src/main/java/com/congee/mall/constants/RequestResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="10" column="82" lean-forward="false" selection-start-line="10" selection-start-column="82" selection-end-line="10" selection-end-column="82" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/congee-mall-site/src/main/java/com/congee/mall/site/constants/WallPaperUrl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/congee-mall-dao/src/main/java/com/congee/mall/mapper/WallPaperMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/text/DateFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="334" column="33" lean-forward="false" selection-start-line="334" selection-start-column="33" selection-end-line="334" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/congee-mall-dao/src/main/java/com/congee/mall/pojo/WallPaperBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WechatIMG5.png" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="163" column="11" lean-forward="false" selection-start-line="163" selection-start-column="11" selection-end-line="163" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/sql/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8">
+          <caret line="145" column="17" lean-forward="true" selection-start-line="145" selection-start-column="17" selection-end-line="145" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/congee-mall-dao/src/main/resources/com/congee/mall/mapper/WallPaperMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/congee-mall-site/src/main/java/com/congee/mall/site/wallpaper/WallPaperController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/congee-mall-service/src/main/java/com/congee/mall/service/operation/OpService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/congee-mall-dao/src/main/resources/com/congee/mall/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/congee-mall-dao/src/main/resources/com/congee/mall/mapper/ProductListMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="51" lean-forward="false" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/congee-mall-dao/src/main/resources/com/congee/mall/mapper/NavigatorMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="93" lean-forward="false" selection-start-line="15" selection-start-column="93" selection-end-line="15" selection-end-column="93" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/fastjson/1.1.41/795547bd8353ad12eb909594532195ec7df47ede/fastjson-1.1.41-sources.jar!/com/alibaba/fastjson/JSONObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="50" column="50" lean-forward="false" selection-start-line="50" selection-start-column="50" selection-end-line="50" selection-end-column="50" />
-          <folding />
+        <state relative-caret-position="120">
+          <caret line="50" column="13" lean-forward="false" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/congee-mall-common/src/main/java/constants/BaseCode.java">
+    <entry file="file://$PROJECT_DIR$/congee-mall-common/src/main/java/com/congee/mall/constants/CommonUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding />
+        <state relative-caret-position="75">
+          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
+    <entry file="file://$PROJECT_DIR$/congee-mall-common/src/main/java/com/congee/mall/constants/DateUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11925">
-          <caret line="828" column="26" lean-forward="false" selection-start-line="828" selection-start-column="26" selection-end-line="828" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#60784#0" expanded="false" />
-            <element signature="e#6101#6102#0" expanded="false" />
-            <element signature="e#6171#6172#0" expanded="false" />
-            <element signature="e#7967#7968#0" expanded="false" />
-            <element signature="e#8013#8014#0" expanded="false" />
-            <element signature="e#9482#9483#0" expanded="false" />
-            <element signature="e#9528#9529#0" expanded="false" />
-            <element signature="e#10902#10903#0" expanded="false" />
-            <element signature="e#10948#10949#0" expanded="false" />
-            <element signature="e#15724#15725#0" expanded="false" />
-            <element signature="e#15779#15780#0" expanded="false" />
-            <element signature="e#32532#32533#0" expanded="false" />
-            <element signature="e#32566#32567#0" expanded="false" />
-            <element signature="e#33488#33489#0" expanded="false" />
-            <element signature="e#33522#33523#0" expanded="false" />
-            <element signature="e#33736#33737#0" expanded="false" />
-            <element signature="e#33771#33772#0" expanded="false" />
-            <element signature="e#33891#33892#0" expanded="false" />
-            <element signature="e#33919#33920#0" expanded="false" />
-            <element signature="e#34168#34169#0" expanded="false" />
-            <element signature="e#34202#34203#0" expanded="false" />
-            <element signature="e#34414#34415#0" expanded="false" />
-            <element signature="e#34449#34450#0" expanded="false" />
-            <element signature="e#34664#34665#0" expanded="false" />
-            <element signature="e#34700#34701#0" expanded="false" />
-            <element signature="e#35161#35162#0" expanded="false" />
-            <element signature="e#35199#35200#0" expanded="false" />
-            <element signature="e#35486#35487#0" expanded="false" />
-            <element signature="e#35532#35533#0" expanded="false" />
-            <element signature="e#35824#35825#0" expanded="false" />
-            <element signature="e#35852#35853#0" expanded="false" />
-            <element signature="e#37816#37817#0" expanded="false" />
-            <element signature="e#37859#37860#0" expanded="false" />
-            <element signature="e#46394#46395#0" expanded="false" />
-            <element signature="e#46458#46459#0" expanded="false" />
-            <element signature="e#47036#47037#0" expanded="false" />
-            <element signature="e#47092#47093#0" expanded="false" />
-            <element signature="e#47615#47616#0" expanded="false" />
-            <element signature="e#47675#47676#0" expanded="false" />
-            <element signature="e#48444#48445#0" expanded="false" />
-            <element signature="e#48491#48492#0" expanded="false" />
-            <element signature="e#56465#56466#0" expanded="false" />
-            <element signature="e#56523#56524#0" expanded="false" />
-            <element signature="e#57650#57651#0" expanded="false" />
-            <element signature="e#57708#57709#0" expanded="false" />
-            <element signature="e#59796#59797#0" expanded="false" />
-            <element signature="e#59824#59825#0" expanded="false" />
-            <element signature="e#60191#60192#0" expanded="false" />
-            <element signature="e#60228#60229#0" expanded="false" />
-            <element signature="e#60595#60596#0" expanded="false" />
-            <element signature="e#60632#60633#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/congee-mall-site/src/main/java/com/congee/mall/site/product/ProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        <state relative-caret-position="195">
+          <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/congee-mall-dao/src/main/resources/com/congee/mall/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <marker date="1493892007000" expanded="true" signature="860:931" ph="SELECT * fro... user_info" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/8.5.11/83cbe61a663259e7ef33943810ac328cfacfc67b/tomcat-embed-core-8.5.11-sources.jar!/javax/servlet/http/HttpServletRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="462" column="62" lean-forward="false" selection-start-line="462" selection-start-column="58" selection-end-line="462" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/congee-mall-service/src/main/java/com/congee/mall/service/operation/OpService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="24" column="57" lean-forward="false" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/congee-mall-dao/src/main/java/com/congee/mall/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/congee-mall-dao/src/main/java/com/congee/mall/impl/UserDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="6" column="45" lean-forward="false" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/congee-mall-dao/src/main/java/com/congee/mall/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/congee-mall-common/src/main/java/constants/SystemCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="31" column="29" lean-forward="false" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/congee-mall-common/src/main/java/constants/RequestResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="50" lean-forward="false" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/congee-mall-service/src/main/java/com/congee/mall/service/user/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-128">
-          <caret line="24" column="25" lean-forward="false" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+        <state relative-caret-position="225">
+          <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/congee-mall-service/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.6.RELEASE/e41b15afc71764f982eec257729ac3fddda78f3e/spring-web-4.3.6.RELEASE-sources.jar!/org/springframework/web/multipart/MultipartFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="38" column="47" lean-forward="false" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/congee-mall-common/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/congee-mall-service/src/main/java/com/congee/mall/service/wallpaper/WallPaperService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="44" lean-forward="false" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/congee-mall-site/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="56" lean-forward="false" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/congee-mall-site/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.amqp/spring-rabbit/1.4.0.RELEASE/f1604f68f26356487dbce9e5efdf22c9e522a968/spring-rabbit-1.4.0.RELEASE-sources.jar!/org/springframework/amqp/rabbit/connection/AbstractConnectionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="201" column="13" lean-forward="false" selection-start-line="201" selection-start-column="13" selection-end-line="201" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/congee-mall-site/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/Throwable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="732" column="22" lean-forward="false" selection-start-line="732" selection-start-column="22" selection-end-line="732" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/congee-mall-site/src/main/java/com/congee/mall/MyThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding>
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.3.6.RELEASE/49943c4c9945a5a4e256d7e360ad3872696a769e/spring-context-4.3.6.RELEASE-sources.jar!/org/springframework/context/annotation/EnableAspectJAutoProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="112" column="18" lean-forward="false" selection-start-line="112" selection-start-column="18" selection-end-line="112" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/congee-mall-site/src/main/java/com/congee/mall/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="20" column="11" lean-forward="false" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/congee-mall-site/src/main/java/com/congee/mall/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/congee-mall-site/src/main/java/com/congee/mall/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/congee-mall-common/src/main/java/com/congee/mall/cache/CacheHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#330#331#0" expanded="false" />
+            <element signature="e#376#377#0" expanded="false" />
+            <element signature="e#418#419#0" expanded="false" />
+            <element signature="e#467#468#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/congee-mall-common/src/main/java/com/congee/mall/mq/Receiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="19" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/congee-mall-common/src/main/java/com/congee/mall/mq/Sender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="25" column="35" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/congee-mall-common/src/main/java/com/congee/mall/aop/MyAop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="58" column="31" lean-forward="false" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/congee-mall-site/src/main/java/com/congee/mall/site/user/UserController.java">
+    <entry file="file://$PROJECT_DIR$/congee-mall-common/src/main/java/com/congee/mall/constants/BaseCode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="28" column="75" lean-forward="false" selection-start-line="28" selection-start-column="75" selection-end-line="28" selection-end-column="75" />
-          <folding />
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2324,10 +2419,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>Gradle : com.congee.mall : congee-0.0.1.war (exploded)</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.61609197" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -2335,7 +2432,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -2370,7 +2467,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>congee-mall-pojo</last-edited>
+          <last-edited>congee-mall-common</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

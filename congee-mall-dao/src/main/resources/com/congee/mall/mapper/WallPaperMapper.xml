@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.congee.mall.mapper.WallPaperMapper">
+
+    <resultMap type="com.congee.mall.pojo.WallPaperBean" id="BaseResultMap">
+        <result property="pic" column="pic"/>
+        <result property="tips" column="tips"/>
+        <result property="showDate" column="show_date"/>
+    </resultMap>
+
+
+    <select id="selectList"  resultMap="BaseResultMap"
+           >
+            SELECT * from wallpaper
+                WHERE 1=1
+    </select>
+
+    <insert id="insert" parameterType="com.congee.mall.pojo.WallPaperBean">
+        INSERT INTO wallpaper(pic,tips,show_date)
+        VALUES (#{pic,jdbcType=VARCHAR},#{tips,jdbcType=VARCHAR},#{showDate,jdbcType=VARCHAR})
+    </insert>
+
+</mapper>

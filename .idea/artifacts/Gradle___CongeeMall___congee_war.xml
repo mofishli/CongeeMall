@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Gradle : CongeeMall : congee.war">
+    <output-path>$PROJECT_DIR$/congee-mall-site/build/libs</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$" />
+    </properties>
+    <root id="archive" name="congee.war">
+      <element id="artifact" artifact-name="Gradle : CongeeMall : congee.war (exploded)" />
+    </root>
+  </artifact>
+</component>

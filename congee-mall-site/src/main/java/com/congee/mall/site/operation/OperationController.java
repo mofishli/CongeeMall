@@ -1,6 +1,6 @@
 package com.congee.mall.site.operation;
 
-import constants.RequestResult;
+import com.congee.mall.constants.RequestResult;
 import com.congee.mall.service.operation.OpService;
 import com.congee.mall.site.constants.OpUrl;
 import org.springframework.beans.factory.annotation.Autowired;

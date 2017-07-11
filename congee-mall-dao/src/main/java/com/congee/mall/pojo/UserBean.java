@@ -1,5 +1,7 @@
 package com.congee.mall.pojo;
 
+import java.util.Date;
+
 /**
  * Created by zhouli on 17/5/4.
  */
@@ -13,7 +15,8 @@ public class UserBean {
     private String head_url;
     private boolean is_admin;
     private boolean is_vip;
-    private String create_time;
+    private Date create_time;
+    private Date update_time;
     private String instruction;
 
     public int getUser_id() {
@@ -88,11 +91,11 @@ public class UserBean {
         this.is_vip = is_vip;
     }
 
-    public String getCreate_time() {
+    public Date getCreate_time() {
         return create_time;
     }
 
-    public void setCreate_time(String create_time) {
+    public void setCreate_time(Date create_time) {
         this.create_time = create_time;
     }
 
@@ -104,4 +107,11 @@ public class UserBean {
         this.instruction = instruction;
     }
 
+    public Date getUpdate_time() {
+        return update_time;
+    }
+
+    public void setUpdate_time(Date update_time) {
+        this.update_time = update_time;
+    }
 }
